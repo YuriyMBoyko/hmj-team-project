@@ -1,5 +1,49 @@
 <section class="contacts" id="contacts">
   <div class="container">
-
+    <p class="contacts-subtitle">Connect</p>
+    <h2 class="contacts-title">Order your unique jewelry</h2>
+    <p class="contacts-text">We'd love to hear more details from you!</p>
+    <form class="contacts-form">
+      <div class="form-group">
+        <label class="contacts-label" for="name">Name*</label>
+        <input class="contacts-input" type="text" id="name" name="name" placeholder="Tony"
+          pattern="^[a-zA-Z\s\.]{5,28}$" required>
+      </div>
+      <div class="form-group">
+        <label class="contacts-label" for="phone">Phone*</label>
+        <input class="contacts-input" type="tel" id="phone" name="phone" placeholder="+1 234 567 8900"
+          pattern="^+[0-9\s]{14}$" required>
+      </div>
+      <div class="form-group">
+        <label class="contacts-label" for="message">Describe what you want</label>
+        <textarea class="contacts-textarea" id="message" name="message" placeholder="Type your message..."
+          maxlength="500" required></textarea>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+    <div class="contacts-address">
+      <div class="contacts-address-item">
+        <svg class="contacts-icon" width="32" height="32">
+          <use href="./img/icons.svg#envelope"></use>
+        </svg>
+        <h3 class="contacts-item-title">Email</h3>
+        <a class="contacts-item-link" href="mailto:info@handmadejewelry.com">info@handmadejewelry.com</a>
+      </div>
+      <div class="contacts-address-item">
+        <svg class="contacts-icon" width="32" height="32">
+          <use href="./img/icons.svg#phone"></use>
+        </svg>
+        <h3 class="contacts-item-title">Phone</h3>
+        <a class="contacts-item-link" href="tel:+1 (555) 000-0000">+1 (555) 000-0000</a>
+      </div>
+      <div class="contacts-address-item">
+        <svg class="contacts-icon" width="32" height="32">
+          <use href="./img/icons.svg#map"></use>
+        </svg>
+        <h3 class="contacts-item-title">Office</h3>
+        <a class="contacts-item-link" href="https://maps.app.goo.gl/49ZjYmBqBvh312n56" target="_blank">76-8 Oakington
+          Manor Dr, London, UK</a>
+      </div>
+    </div>
   </div>
 </section>
