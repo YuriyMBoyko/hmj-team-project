@@ -19,11 +19,6 @@
   background-color: #41d1ff;
   transition: 200ms ease;
 }
-.footer {
-  background: #fff;
-  font-family: 'Mulish', sans-serif;
-  color: #000;
-}
 .footer .container {
   padding: 80px 20px;
 }
@@ -71,7 +66,7 @@
   gap: 32px;
 }
 .footer-nav-link {
-  font-family: 'Mulish', sans-serif;
+  font-family: var(--font-family);
   font-size: 16px;
   transition: opacity 0.2s ease;
 }
@@ -80,14 +75,15 @@
   opacity: 0.7;
 }
 .footer-copyright {
-  border-top: 1px solid #000;
+  border-top: 1px solid var(--color-neutral-darkest);
   padding-top: 24px;
   margin-top: 32px;
 }
 .footer-desc {
-  font-family: 'Mulish', sans-serif;
+  font-family: var(--font-family);
   font-size: 14px;
   text-align: center;
+  color: var(--color-neutral-darkest);
 }
 @media (min-width: 768px) {
   .footer .container {
