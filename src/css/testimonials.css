@@ -1,0 +1,73 @@
+
+.testimonials-title {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #000;
+    padding-bottom: 24px;
+}
+
+.testimonials-text {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+    padding-bottom: 40px;
+}
+
+.testimonials-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.testimonials-item-img {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.testimonials-item {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #f2f2f2;
+    padding: 32px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.testimonials-item-rating {
+    display: flex;
+    gap: 4px;
+}
+
+.star {
+    fill: #000;
+}
+
+.testimonials-item-text {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.testimonials-item-name {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+}
+
+
+
