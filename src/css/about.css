@@ -1,0 +1,34 @@
+.about {
+background: #fff;
+}
+.about .container {
+padding: 56px 20px;
+}
+.about img {
+margin-bottom: 32px;
+}
+.about-title {
+font-family: "Sora", sans-serif;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: -0.01em;
+color: #000;
+margin-bottom: 24px;
+}
+.about-text {
+font-family: "Mulish", sans-serif;
+font-size: 18px;
+color: #000;
+margin-bottom: 24px;
+}
+.about-list {
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+.about-item {
+font-family: "Mulish", sans-serif;
+font-weight: 700;
+font-size: 18px;
+color: #000;
+}
