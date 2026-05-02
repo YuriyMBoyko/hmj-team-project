@@ -1,6 +1,6 @@
 .header-container {
   padding: 0px 12px 0px 20px;
-  background: var(--color-scheme-2-background);
+  background-color: var(--color-scheme-2-background);
 }
 
 .header-nav {
@@ -15,6 +15,10 @@
   display: none;
 }
 
+.header-button {
+  display: none;
+}
+
 .header-mobile-menu-btn {
   display: flex;
   align-items: center;
@@ -23,8 +27,15 @@
   gap: 10px;
   width: 48px;
   height: 48px;
+  line-height: 0;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
 }
 
+.header-mobile-menu-icon {
+  fill: var(--color-scheme-2-background);
+}
 
 
 
