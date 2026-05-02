@@ -1,0 +1,120 @@
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  background-color: var(--color-scheme-2-background);
+
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.about-img-wrapper {
+  height: 335px;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.about-title {
+  font-family: var(--second-family);
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--color-scheme-2-text);
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--color-scheme-2-text);
+}
+
+.about-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
+
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-scheme-2-text);
+}
+
+.about-item::before {
+  content: '';
+  display: inline-block;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+/*
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  background-color: var(--color-scheme-2-text);
+*/
+}
+
+.about-item-nature::before {
+/*
+  -webkit-mask-image: url('../img/icon-leaf.svg');
+  mask-image: url('../img/icon-leaf.svg');
+*/
+  background-image: url('../img/icon-leaf.svg');
+}
+
+.about-item-love::before {
+/*
+  -webkit-mask-image: url('../img/icon-donate-heart.svg');
+  mask-image: url('../img/icon-donate-heart.svg');
+*/
+  background-image: url('../img/icon-donate-heart.svg');
+}
+
+.about-item-story::before {
+/*
+  -webkit-mask-image: url('../img/icon-book.svg');
+  mask-image: url('../img/icon-book.svg');
+*/
+  background-image: url('../img/icon-book.svg');
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-about {
+      padding-top: 112px;
+      padding-bottom: 112px;
+    }
+
+    .about-img-wrapper {
+      height: 456px;
+    }
+
+    .about-wrapper {
+      gap: 24px;
+    }
+
+    .about-list {
+      gap: 24px;
+    }
+}
