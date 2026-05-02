@@ -4,7 +4,7 @@
   background-position: center;
   background-image:
     linear-gradient(var(--opacity-neutral-darkest-40), var(--opacity-neutral-darkest-40)),
-    url(./img/hero/background.jpg);
+    url(../img/hero/background.jpg);
 }
 
 .hero-container {
