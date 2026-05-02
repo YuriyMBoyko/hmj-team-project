@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Sora:wght@400&display=swap">
     <script type="module" crossorigin src="/hmj-team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/hmj-team-project/assets/index-BOzpQraQ.css">
+    <link rel="stylesheet" crossorigin href="/hmj-team-project/assets/index-B3Mj2Knb.css">
   </head>
   <body>
     <header class="header">
@@ -283,73 +283,105 @@
 </section>
 
       <section class="contacts" id="contacts">
-  <div class="container">
-    <p class="contacts-subtitle">Connect</p>
-    <h2 class="contacts-title">Order your unique jewelry</h2>
-    <p class="contacts-text">We'd love to hear more details from you!</p>
-    <address class="contacts-address">
-      <ul class="contacts-list">
-        <li class="contacts-item">
-          <svg class="contacts-icon" width="32" height="32">
-            <use href="/hmj-team-project/assets/icons-8eILf9uq.svg#envelope"></use>
-          </svg>
-          <p class="contacts-item-title">Email</p>
-          <a class="contacts-item-link" href="mailto:info@handmadejewelry.com" target="_blank" rel="noopener noreferrer">info@handmadejewelry.com</a>
-        </li>
-        <li class="contacts-item">
-          <svg class="contacts-icon" width="32" height="32">
-            <use href="/hmj-team-project/assets/icons-8eILf9uq.svg#phone"></use>
-          </svg>
-          <p class="contacts-item-title">Phone</p>
-          <a class="contacts-item-link" href="tel:+15550000000" target="_blank" rel="noopener noreferrer">+1 (555) 000-0000</a>
-        </li>
-        <li class="contacts-item">
-          <svg class="contacts-icon" width="32" height="32">
-            <use href="/hmj-team-project/assets/icons-8eILf9uq.svg#map"></use>
-          </svg>
-          <p class="contacts-item-title">Office</p>
-          <a class="contacts-item-link" href="https://maps.app.goo.gl/49ZjYmBqBvh312n56" target="_blank" rel="noopener noreferrer">76-8 Oakington Manor Dr, London, UK</a>
-        </li>
-      </ul>
-    </address>
-    <form class="contacts-form">
-      <div class="contacts-form-group">
-        <label class="contacts-label" for="name">Name*</label>
-        <input
-          class="contacts-input"
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Tony"
-          pattern="^[a-zA-Z\s\.]{5,28}$"
-          required
-        />
+  <div class="container contacts-container">
+    <div class="contacts-title-wrapper">
+      <p class="contacts-subtitle">Connect</p>
+      <div class="contacts-title-text-wrapper">
+        <h2 class="contacts-title">Order your unique jewelry</h2>
+        <p class="contacts-text">We'd love to hear more details from you!</p>
       </div>
-      <div class="contacts-form-group">
-        <label class="contacts-label" for="phone">Phone*</label>
-        <input
-          class="contacts-input"
-          type="tel"
-          id="phone"
-          name="phone"
-          placeholder="+1 234 123 23"
-          pattern="^+[0-9\s]{14}$"
-          required
-        />
-      </div>
-      <div class="contacts-form-group">
-        <label class="contacts-label" for="message">Describe what you want</label>
-        <textarea
-          class="contacts-textarea"
-          id="message"
-          name="message"
-          placeholder="Type your message..."
-          maxlength="500"
-          required
-        ></textarea>
-      </div>
-      <button class="btn" type="submit">Submit</button>
-    </form>
+    </div>
+    <div class="contacts-address-form-wrapper">
+      <address class="contacts-address">
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <svg class="contacts-icon" width="32" height="32">
+              <use href="/hmj-team-project/assets/icons-8eILf9uq.svg#envelope"></use>
+            </svg>
+            <div class="contacts-info">
+              <p class="contacts-heading">Email</p>
+              <a
+                class="contacts-link"
+                href="mailto:info@handmadejewelry.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >info@handmadejewelry.com</a
+              >
+            </div>
+          </li>
+          <li class="contacts-item">
+            <svg class="contacts-icon" width="32" height="32">
+              <use href="/hmj-team-project/assets/icons-8eILf9uq.svg#phone"></use>
+            </svg>
+            <div class="contacts-info">
+              <p class="contacts-heading">Phone</p>
+              <a
+                class="contacts-link"
+                href="tel:+15550000000"
+                target="_blank"
+                rel="noopener noreferrer"
+                >+1 (555) 000-0000</a
+              >
+            </div>
+          </li>
+          <li class="contacts-item">
+            <svg class="contacts-icon" width="32" height="32">
+              <use href="/hmj-team-project/assets/icons-8eILf9uq.svg#map"></use>
+            </svg>
+            <div class="contacts-info">
+              <p class="contacts-heading">Office</p>
+              <a
+                class="contacts-link"
+                href="https://maps.app.goo.gl/49ZjYmBqBvh312n56"
+                target="_blank"
+                rel="noopener noreferrer"
+                >76-8 Oakington Manor Dr, London, UK</a
+              >
+            </div>
+          </li>
+        </ul>
+      </address>
+      <form class="contacts-form">
+        <div class="contacts-form-item">
+          <label class="contacts-label" for="name">Name*</label>
+          <input
+            class="contacts-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Tony"
+            pattern="^[a-zA-Z\s\.]{5,28}$"
+            required
+          />
+        </div>
+        <div class="contacts-form-item">
+          <label class="contacts-label" for="phone">Phone*</label>
+          <input
+            class="contacts-input"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+1 234 123 23"
+            pattern="^+[0-9\s]{14}$"
+            required
+          />
+        </div>
+        <div class="contacts-form-item">
+          <label class="contacts-label" for="message"
+            >Describe what you want</label
+          >
+          <textarea
+            class="contacts-textarea"
+            id="message"
+            name="message"
+            placeholder="Type your message..."
+            maxlength="500"
+            required
+          ></textarea>
+        </div>
+        <button class="contacts-form-btn" type="submit">Submit</button>
+      </form>
+    </div>
   </div>
 </section>
 
