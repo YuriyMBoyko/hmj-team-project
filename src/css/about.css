@@ -84,3 +84,23 @@
   -webkit-mask-image: url('./img/icon-book.svg');
   mask-image: url('./img/icon-book.svg');
 }
+
+
+@media only screen and (min-width: 768px) {
+    .container-about {
+      padding-top: 112px;
+      padding-bottom: 112px;
+    }
+
+    .about-img-wrapper {
+      height: 456px;
+    }
+
+    .about-wrapper {
+      gap: 24px;
+    }
+
+    .about-list {
+      gap: 24px;
+    }
+}
