@@ -58,7 +58,7 @@
 }
 
 .about-item::before {
-  content: "";
+  content: '';
   display: inline-block;
   flex-shrink: 0;
   width: 20px;
