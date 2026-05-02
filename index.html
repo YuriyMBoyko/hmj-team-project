@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Sora:wght@400&display=swap">
     <script type="module" crossorigin src="/hmj-team-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/hmj-team-project/assets/index-Bsq4gOM8.css">
+    <link rel="stylesheet" crossorigin href="/hmj-team-project/assets/index-BOzpQraQ.css">
   </head>
   <body>
     <header class="header">
@@ -67,11 +67,25 @@
       <section class="about" id="about">
   <div class="container container-about">
     <div class="about-img-wrapper">
-      <img
-        srcset="/hmj-team-project/assets/instrument-DbJov9UV.jpg 1x, /hmj-team-project/assets/instrument@2x-DLG2JLqk.jpg 2x"
-        src="/hmj-team-project/assets/instrument-DbJov9UV.jpg"
-        alt="Hands with instrument"
-      />
+      <picture>
+        <source
+          srcset="/hmj-team-project/assets/about-desktop-mBf8uRjz.jpg 1x, /hmj-team-project/assets/about-desktop@2x-DyuACUfM.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/hmj-team-project/assets/about-tablet-kizSLmhQ.jpg 1x, /hmj-team-project/assets/about-tablet@2x-Dy7w62KF.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/hmj-team-project/assets/about-mobile-DJYWlS70.jpg 1x, /hmj-team-project/assets/about-mobile@2x-BZFdeCzt.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <img
+          class="hero-board-image"
+          src="/hmj-team-project/assets/about-mobile-DJYWlS70.jpg"
+          alt="Hands with instrument"
+        />
+      </picture>
     </div>
     <div class="about-wrapper">
       <h2 class="about-title">The Artistry Behind Handmade Jewelry</h2>
