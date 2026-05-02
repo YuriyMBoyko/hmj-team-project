@@ -110,4 +110,7 @@
   .about-title {
     font-size: 48px;
   }
+    .about-img-wrapper {
+      flex-shrink: 0;
+    }
 }
