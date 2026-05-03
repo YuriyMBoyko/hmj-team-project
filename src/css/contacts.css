@@ -122,6 +122,7 @@
 
 .contacts-textarea {
   border: 1px solid var(--opacity-neutral-darkest-15);
+  padding: 8px 12px;
   height: 180px;
   resize: none;
 }
