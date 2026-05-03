@@ -2,32 +2,72 @@
   <div class="container testimonials-container">
     <div class="testimonials-title-wrapper">
       <h2 class="testimonials-title">Customer testimonials</h2>
-      <p class="testimonials-text">Absolutely love my new earrings! They are stunning.</p>
+      <p class="testimonials-text">
+        Absolutely love my new earrings! They are stunning.
+      </p>
     </div>
     <ul class="testimonials-list">
       <li class="testimonials-item">
-        <img
-          class="feedback-img"
-          srcset="
-            ./img/testimonials/woman.jpg    1x,
-            ./img/testimonials/woman@2x.jpg 2x
-          "
-          src="./img/testimonials/woman.jpg"
-          alt="Woman"
-        />
-        <img
-          class="feedback-img"
-          srcset="
-            ./img/testimonials/man.jpg    1x,
-            ./img/testimonials/man@2x.jpg 2x
-          "
-          src="./img/testimonials/man.jpg"
-          alt="Man"
-        />
-        <!--
-        <picture class="feedback-img"></picture>
-        <picture class="feedback-img"></picture>
--->
+        <div class="feedback-image-wrapper">
+          <picture>
+            <source
+              srcset="
+                ./img/testimonials/woman-desktop.jpg    1x,
+                ./img/testimonials/woman-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/woman-tablet.jpg    1x,
+                ./img/testimonials/woman-tablet@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/woman-mobile.jpg    1x,
+                ./img/testimonials/woman-mobile@2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              class="feedback-image"
+              src="./img/testimonials/woman-mobile.jpg"
+              alt="Woman with earrings"
+            />
+          </picture>
+        </div>
+        <div class="feedback-image-wrapper">
+          <picture>
+            <source
+              srcset="
+                ./img/testimonials/man-desktop.jpg    1x,
+                ./img/testimonials/man-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/man-tablet.jpg    1x,
+                ./img/testimonials/man-tablet@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/man-mobile.jpg    1x,
+                ./img/testimonials/man-mobile@2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              class="feedback-image"
+              src="./img/testimonials/man-mobile.jpg"
+              alt="Man wearing a pendant"
+            />
+          </picture>
+        </div>
         <div class="feedback-rating">
           <div class="feedback-star-wrapper">
             <svg class="feedback-star is-marked" width="24" height="24">
@@ -53,32 +93,66 @@
         </div>
       </li>
       <li class="testimonials-item is-reversed">
-        <img
-          class="feedback-img"
-          srcset="
-            ./img/testimonials/ring.jpg    1x,
-            ./img/testimonials/ring@2x.jpg 2x
-          "
-          src="./img/testimonials/ring.jpg"
-          alt="Ring"
-          width="335"
-          height="260"
-        />
-        <img
-          class="feedback-img"
-          srcset="
-            ./img/testimonials/cap.jpg    1x,
-            ./img/testimonials/cap@2x.jpg 2x
-          "
-          src="./img/testimonials/cap.jpg"
-          alt="Cap"
-          width="335"
-          height="260"
-        />
-        <!--        
-        <picture class="feedback-img"></picture>
-        <picture class="feedback-img"></picture>
--->
+        <div class="feedback-image-wrapper">
+          <picture>
+            <source
+              srcset="
+                ./img/testimonials/ring-desktop.jpg    1x,
+                ./img/testimonials/ring-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/ring-tablet.jpg    1x,
+                ./img/testimonials/ring-tablet@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/ring-mobile.jpg    1x,
+                ./img/testimonials/ring-mobile@2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              class="feedback-image"
+              src="./img/testimonials/ring-mobile.jpg"
+              alt="Close up of a ring"
+            />
+          </picture>
+        </div>
+        <div class="feedback-image-wrapper">
+          <picture>
+            <source
+              srcset="
+                ./img/testimonials/cap-desktop.jpg    1x,
+                ./img/testimonials/cap-desktop@2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/cap-tablet.jpg    1x,
+                ./img/testimonials/cap-tablet@2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/testimonials/cap-mobile.jpg    1x,
+                ./img/testimonials/cap-mobile@2x.jpg 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              class="feedback-image"
+              src="./img/testimonials/cap-mobile.jpg"
+              alt="Hands holding coffee cup"
+            />
+          </picture>
+        </div>
         <div class="feedback-rating">
           <div class="feedback-star-wrapper">
             <svg class="feedback-star is-marked" width="24" height="24">
