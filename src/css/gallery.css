@@ -29,28 +29,40 @@
   text-align: center;
 }
 
-.gallery-columns {
+.gallery-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  height: auto;
-}
-
-.column {
-  display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 0;
+  gap: 16px;
+  width: 100%;
+}
+
+.gallery-item {
+  width: 100%;
+}
+
+.gallery-picture-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gallery-picture-item {
+  width: 100%;
+}
+
+.gallery-picture-wrapper {
+  display: flex;
   width: 100%;
   height: 335px;
 }
 
-.column img {
+.gallery-picture-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -59,27 +71,72 @@
     gap: 80px;
   }
 
-  .gallery-columns {
-    display: flex;
-    gap: 24px;
-    height: 626px;
-  }
-
-  .column {
-    display: flex;
+  .gallery-list {
     flex-direction: row;
     gap: 24px;
-    flex: 1;
   }
 
-  .column img {
-    object-fit: cover;
-    width: 100%;
+  .gallery-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .gallery-picture-wrapper {
     height: 100%;
-    flex: 1;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .gallery-item:nth-child(odd) {
+    .gallery-picture-list {
+      gap: 32px;
+
+      .gallery-picture-item:nth-child(odd) {
+        height: 368px;
+      }
+
+      .gallery-picture-item:nth-child(even) {
+        height: 226px;
+      }
+    }
   }
 
-  .column img.big {
-    flex: 2;
+  .gallery-item:nth-child(even) {
+    .gallery-picture-list {
+      gap: 24px;
+
+      .gallery-picture-item:nth-child(odd) {
+        height: 216px;
+      }
+
+      .gallery-picture-item:nth-child(even) {
+        height: 386px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .gallery-title {
+    font-size: 48px;
+  }
+
+  .gallery-list {
+    gap: 32px;
+  }
+
+  .gallery-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .gallery-picture-list {
+    gap: 32px;
+  }
+
+  .gallery-picture-list .galery-picture-item:nth-child(odd) {
+    height: 640px;
+  }
+
+  .gallery-picture-list .galery-picture-item:nth-child(even) {
+    height: calc(2 * 640px / 3);
   }
 }
