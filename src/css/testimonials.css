@@ -115,3 +115,35 @@
     flex-grow: 1;
   }
 }
+
+
+@media only screen and (min-width: 1440px) {
+    .testimonials-container {
+      gap: 80px;
+    }
+
+    .testimonials-title {
+      font-weight: 400;
+      font-size: 48px;
+    }
+
+    .testimonials-list {
+      gap: 32px;
+    }
+
+    .testimonials-item {
+      gap: 32px;
+    }
+
+    .feedback-author {
+      margin-top: auto;
+    }
+
+    .feedback-image-wrapper {
+      width: 304px;
+    }
+
+    .feedback-image {
+      max-width: none;
+    }
+}
