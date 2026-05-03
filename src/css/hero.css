@@ -57,21 +57,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 736px;
-    padding-left: 32px;
-    padding-right: 0px;
-    margin: 0 auto;
-  }
-
   .hero {
     background-image: linear-gradient(var(--opacity-neutral-darkest-40), var(--opacity-neutral-darkest-40)),
     url(../img/hero/background.jpg);
   }
 
   .hero-container {
-    padding-top: 160px;
+    max-width: 736px;
     height: 864px;
+    padding-top: 160px;
+    padding-left: 32px;
+    padding-right: 0px;
+    margin: 0 auto;
   }
 
   .hero-title-wrapper {
