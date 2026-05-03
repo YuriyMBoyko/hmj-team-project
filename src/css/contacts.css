@@ -159,3 +159,32 @@
     width: 249px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .contacts-title {
+    font-size: 48px;
+  }
+
+  .contacts-address-form-wrapper {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .contacts-form {
+    width: calc((100% - 32px) / 2);
+    flex-shrink: 0;
+  }
+
+  .contacts-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contacts-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .contacts-form-button {
+    width: 192px;
+  }
+}
