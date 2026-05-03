@@ -4,7 +4,7 @@
   background-position: center;
   background-image:
     linear-gradient(var(--opacity-neutral-darkest-40), var(--opacity-neutral-darkest-40)),
-    url(../img/hero/background.jpg);
+    url(../img/hero/background@2x.jpg);
 }
 
 .hero-container {
@@ -54,4 +54,28 @@
   padding: 6px 12px;
   width: 100%;
   background-color: var(--color-scheme-1-accent);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+    padding-left: 32px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    background-image: linear-gradient(var(--opacity-neutral-darkest-40), var(--opacity-neutral-darkest-40)),
+    url(../img/hero/background.jpg);
+  }
+
+  .hero-container {
+    padding-top: 160px;
+    height: 864px;
+  }
+
+  .hero-title-wrapper {
+    gap: 32px;
+    max-width: 640px;
+  }
 }
