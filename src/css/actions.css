@@ -1,0 +1,81 @@
+.contacts-form-btn:hover,
+.contacts-form-btn:focus,
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-white);
+}
+
+.contacts-form-btn:active,
+.hero-button:active {
+  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
+  background: var(--color-scheme-2-accent);
+}
+
+.contacts-form-btn:disabled,
+.contacts-form-btn.disabled,
+.hero-button:disabled,
+.hero-button.disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.contacts-input:focus,
+.contacts-textarea:focus {
+  border-color: var(--color-scheme-2-accent);
+  outline: transparent;
+}
+
+.name-invalid {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-red);
+  display: none;
+}
+
+.phone-invalid {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-red);
+  display: none;
+}
+
+.name-input:not(:placeholder-shown):invalid {
+  border-color: var(--color-red);
+}
+
+.phone-input:not(:placeholder-shown):invalid {
+  border-color: var(--color-red);
+}
+
+.name-input:not(:placeholder-shown):invalid ~ .name-invalid,
+.phone-input:not(:placeholder-shown):invalid ~ .phone-invalid {
+  display: block;
+}
+
+.mobile-menu-nav-link:hover,
+.mobile-menu-nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.footer-nav-link:hover,
+.footer-nav-link:focus,
+.header-nav-link:hover,
+.header-nav-link:focus {
+  text-decoration: underline;
+}
+
+.mobile-menu-nav-link:active,
+.contacts-link:active,
+.footer-nav-link:active,
+.header-nav-link:active {
+  text-decoration: none;
+  color: var(--color-blue-marguerite);
+}
+
+.mobile-menu-nav-link:disabled,
+.contacts-link:disabled,
+.footer-nav-link:disabled,
+.header-nav-link:disabled {
+  opacity: 0.3;
+}
