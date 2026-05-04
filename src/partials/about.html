@@ -1,19 +1,48 @@
 <section class="about" id="about">
-<div class="container container-about">
-<img
-srcset="./img/about/instrument.jpg 1x,
-./img/about/instrument@2x.jpg 2x"
-src="./img/about/instrument.jpg"
-alt="Hands with instrument"
-width="640"
-height="456"
-/>
-<h2 class="about-title">The Artistry Behind Handmade Jewelry</h2>
-<p class="about-text">Handmade Jewelry began as a passion project, inspired by the beauty of nature and the desire to create meaningful pieces. Each item is crafted with love, reflecting our commitment to sustainability and the unique story of its maker.</p>
-<ul class="about-list">
-<li class="about-item about-item-nature">Inspired by Nature</li>
-<li class="about-item about-item-love">Handcrafted with Love</li>
-<li class="about-item about-item-story">Every Piece Tells a Story</li>
-</ul>
-</div>
+  <div class="container container-about">
+    <div class="about-img-wrapper">
+      <picture>
+        <source
+          srcset="
+            ./img/about/about-desktop.jpg    1x,
+            ./img/about/about-desktop@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/about/about-tablet.jpg    1x,
+            ./img/about/about-tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/about/about-mobile.jpg    1x,
+            ./img/about/about-mobile@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="hero-board-image"
+          src="./img/about/about-mobile.jpg"
+          alt="Hands with instrument"
+        />
+      </picture>
+    </div>
+    <div class="about-wrapper">
+      <h2 class="about-title">The Artistry Behind Handmade Jewelry</h2>
+      <p class="about-text">
+        Handmade Jewelry began as a passion project, inspired by the beauty of
+        nature and the desire to create meaningful pieces. Each item is crafted
+        with love, reflecting our commitment to sustainability and the unique
+        story of its maker.
+      </p>
+      <ul class="about-list">
+        <li class="about-item about-item-nature">Inspired by Nature</li>
+        <li class="about-item about-item-love">Handcrafted with Love</li>
+        <li class="about-item about-item-story">Every Piece Tells a Story</li>
+      </ul>
+    </div>
+  </div>
 </section>
