@@ -66,55 +66,51 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-/*
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-  background-color: var(--color-scheme-2-text);
-*/
 }
 
 .about-item-nature::before {
-/*
-  -webkit-mask-image: url('../img/icon-leaf.svg');
-  mask-image: url('../img/icon-leaf.svg');
-*/
   background-image: url('../img/icon-leaf.svg');
 }
 
 .about-item-love::before {
-/*
-  -webkit-mask-image: url('../img/icon-donate-heart.svg');
-  mask-image: url('../img/icon-donate-heart.svg');
-*/
   background-image: url('../img/icon-donate-heart.svg');
 }
 
 .about-item-story::before {
-/*
-  -webkit-mask-image: url('../img/icon-book.svg');
-  mask-image: url('../img/icon-book.svg');
-*/
   background-image: url('../img/icon-book.svg');
 }
 
-
 @media screen and (min-width: 768px) {
-    .container-about {
-      padding-top: 112px;
-      padding-bottom: 112px;
-    }
+  .container-about {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
 
+  .about-img-wrapper {
+    height: 456px;
+  }
+
+  .about-wrapper {
+    gap: 24px;
+  }
+
+  .about-list {
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-about {
+    flex-direction: row;
+    flex-basis: calc((100% - 32px) / 2);
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .about-title {
+    font-size: 48px;
+  }
     .about-img-wrapper {
-      height: 456px;
-    }
-
-    .about-wrapper {
-      gap: 24px;
-    }
-
-    .about-list {
-      gap: 24px;
+      flex-shrink: 0;
     }
 }
