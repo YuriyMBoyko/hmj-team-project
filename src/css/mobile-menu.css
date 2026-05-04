@@ -57,7 +57,7 @@
   background-color: var(--color-scheme-2-background);
 }
 
-.mobile-menu-close-btn {
+.mobile-menu-close-button {
   position: absolute;
   top: 12px;
   right: 12px;
