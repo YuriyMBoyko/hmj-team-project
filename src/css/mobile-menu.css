@@ -130,24 +130,9 @@
   width: 100%;
 }
 
-.mobile-menu-nav-link {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 .mobile-menu-order-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 8px;
   width: 100%;
-  padding: 6px 12px;
   height: 36px;
-  color: var(--color-neutral-darkest);
-  border: 1px solid var(--color-laser);
-  background-color: var(--color-laser);
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
