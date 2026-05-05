@@ -11,15 +11,20 @@
 Проект виконано на основі [Vanilla App Template](https://github.com/goitacademy/vanilla-app-template)
 
 Посилання:
-- [*макет веб-сторінки*](https://www.figma.com/design/54aZckZU4SZP8BtBARsYVU/Handmade-Jevelery?node-id=8202-62143&t=bU2eq9SkkgnQUH7v-0);
-- [*технічне завдання*](https://docs.google.com/spreadsheets/d/16rx-hTSMhKpxae0-HjRQJNME0Lq8PWhv-zKCYqE2bVk/edit?gid=0#gid=0);
-- [*посилання на дошку Trello*](https://trello.com/invite/b/69f26ae71778845fcaadf2b9/ATTI072e4cae23896f19e574cf8bc04b7f4bD67A3F48/hmj-team-project)
+- [макет веб-сторінки](https://www.figma.com/design/54aZckZU4SZP8BtBARsYVU/Handmade-Jevelery?node-id=8202-62143&t=bU2eq9SkkgnQUH7v-0);
+- [технічне завдання](https://docs.google.com/spreadsheets/d/16rx-hTSMhKpxae0-HjRQJNME0Lq8PWhv-zKCYqE2bVk/edit?gid=0#gid=0);
+- [дошка Trello](https://trello.com/invite/b/69f26ae71778845fcaadf2b9/ATTI072e4cae23896f19e574cf8bc04b7f4bD67A3F48/hmj-team-project)
 
 ## Робота над проектом
 
 Для реалізації проект було поділено на десять розділів:
 1. header
-2. - 7. секцій (загалом шість секцій)
+2. секція hero
+3. секція about
+4. секція benefits
+5. секція gallery
+6. секція testimonials
+7. секція contacts
 8. footer
 9. mobile menu
 10. додаткові задачі
