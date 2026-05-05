@@ -91,7 +91,7 @@
 }
 
 .contacts-link:focus,
-.contacts-link:active
+.contacts-link:active,
 .contacts-link:disabled {
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -128,7 +128,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .coontacts-title-wrapper {
+  .contacts-title-wrapper {
     gap: 24px;
   }
 
