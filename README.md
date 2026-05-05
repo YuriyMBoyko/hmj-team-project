@@ -1,113 +1,102 @@
-# Vanilla App Template
+# Handmade Jewelry
 
-Цей проект було створено за допомогою Vite. Для знайомства та налаштування
-додаткових можливостей [звернись до документації](https://vitejs.dev/).
+## Назва проекту
 
-## Створення репозиторію за шаблоном
+**Handmade Jewelry** — командний проект з блоку **HTML+CSS** (курс GoIT FullStack Developer).
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+## Про проект
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+Проект виконано як результат вивчення блоку **HTML+CSS** курсу FullStack Developer у [GoIT](https://goit.global/ua/).
 
-На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся, що репозиторій публічний, після чого натисни
-кнопку `«Create repository from template»`.
+Проект виконано на основі [Vanilla App Template](https://github.com/goitacademy/vanilla-app-template)
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+Посилання:
+- [*макет веб-сторінки*](https://www.figma.com/design/54aZckZU4SZP8BtBARsYVU/Handmade-Jevelery?node-id=8202-62143&t=bU2eq9SkkgnQUH7v-0);
+- [*технічне завдання*](https://docs.google.com/spreadsheets/d/16rx-hTSMhKpxae0-HjRQJNME0Lq8PWhv-zKCYqE2bVk/edit?gid=0#gid=0);
+- [*посилання на дошку Trello*](https://trello.com/invite/b/69f26ae71778845fcaadf2b9/ATTI072e4cae23896f19e574cf8bc04b7f4bD67A3F48/hmj-team-project)
 
-Після того, як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
+## Робота над проектом
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+Для реалізації проект було поділено на десять розділів:
+1. header
+2.-7. секцій (загалом шість секцій)
+8. footer
+9. mobile menu
+10. додаткові задачі
+Кожен розділ (за виключенням двох останніх) складався з чотирьох задач:
+X.1 - html (підготовка html розмітки відповідної секції)
+X.2 - css mobile (реалізація мобільної верстки)
+X.3 - css tablet (реалізація верстки для планшетів)
+x.4 - css desktop (реалізація верстки для комп'ютера)
+Над задачами кожного розділу працювали послідовно.
+Над розділам працювали паралельно.
+Виконавці обирали собі задачі самостійно з переліку задач ToDo.
 
-Проскроливши сторінку до самого кінця, в секції `«Workflow permissions»` обери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проекту.
+## Виконавці
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+- Юрій Бойко **Team Lead** 
+    (підготовка репозитарію, header-html, testimonials-css tablet, code review, bug fixing, 
+     доопрацювання: gallery-css, testimonials-css та footer-css)
+- Ігор Гульчак **Web-developer** 
+    (hero-css mobile, about-html, about-css desktop, testimonials-html, contacts-html, 
+     contacts-css mobile, contacts-css desktop, bug fixing, додаткові задачі)
+- Ірина Антонюк **Web-developer** 
+    (about-css mobile, footer-html, footer-css mobile, footer-css desktop, mobile menu-css)
+- Ірина Коваль **Web-developer** 
+    (benefits-css mobile, benefits-css tablet, benefits-css desktop, contacts-css tablet, mobile menu-html)
+- Карина Бобровська **Web-developer** 
+    (gallery-html, gallery-css mobile, gallery-css tablet, gallery-css desktop)
+- Тетяна Бондаренко **Web-developer** 
+    (about-css tablet, benefits-html, testimonials-css mobile, testimonials-css desktop)
+- Петро Рудик **Web-developer** 
+    (header-css mobile, header-css tablet, header-css desktop)
+- Анастасія Дишлюк **Web-developer** 
+    (hero-css tablet, hero-css mobile)
+- Владислав Бугаєнко **Web-developer** 
+    (hero-html)
 
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
-репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби коміти та відправляй
-їх на GitHub.
+## Технології, використані при роботі над проектом
 
-## Підготовка до роботи
+- **HTML5** (розмітка сторінок)
+- **CSS3** (адаптивна верстка)
+- **Vite** (збирання проекту)
+- **JavaScript**
 
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
+## Запускаємо проект локально
 
-## Файли і папки
+### 1. передумови
 
-- Файли розмітки компонентів сторінки повинні лежати в папці `src/partials` та
-  імпортуватись до файлу `index.html`. Наприклад, файл з розміткою хедера
-  `header.html` створюємо у папці `partials` та імпортуємо в `index.html`.
-- Файли стилів повинні лежати в папці `src/css` та імпортуватись до HTML-файлів
-  сторінок. Наприклад, для `index.html` файл стилів називається `index.css`.
-- Зображення додавай до папки `src/img`. Збирач оптимізує їх, але тільки при
-  деплої продакшн версії проекту. Все це відбувається у хмарі, щоб не
-  навантажувати твій комп'ютер, тому що на слабких компʼютерах це може зайняти
-  багато часу.
+- Встановлений **Node.js** (рекомендовано LTS)
+- **npm** (встановлюється разом із Node.js)
 
-## Деплой
+### 2. встановлюємо залежності
 
-Продакшн версія проекту буде автоматично збиратися та деплоїтись на GitHub
-Pages, у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад,
-після прямого пуша або прийнятого пул-реквесту. Для цього необхідно у файлі
-`package.json` змінити значення прапора `--base=/<REPO>/`, для команди `build`,
-замінивши `<REPO>` на назву свого репозиторію, та відправити зміни на GitHub.
-
-```json
-"build": "vite build --base=/<REPO>/",
+```bash
+npm install
 ```
 
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) та
-виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
+### 3. запускаємо у режимі розробки
 
-![GitHub Pages settings](./assets/repo-settings.png)
+```bash
+npm run dev
+```
 
-### Статус деплою
+Після запуску відкрити у браузері адресу, яку покаже Vite (зазвичай
+`http://localhost:5173`).
 
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
+## Розгортання на github
 
-- **Жовтий колір** - виконується збірка та деплой проекту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, збірки чи деплою сталася помилка.
+Проєкт налаштований на збирання через Vite та може бути розгорнутий на **GitHub Pages**.
 
-Більш детальну інформацію про статус можна переглянути натиснувши на іконку, і в
-вікні, що випадає, перейти за посиланням `Details`.
+Для коректної роботи на GitHub Pages у файлі `package.json` вказано base-шлях:
 
-![Deployment status](./assets/deploy-status.png)
+```json
+"build": "vite build --base=/hmj-team-project/"
+```
 
-### Жива сторінка
+## Структура проекту
 
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною на вкладці `Settings` > `Pages` в налаштуваннях репозиторію.
-Наприклад, ось посилання на живу версію для цього репозиторію
-
-[https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
-
-Якщо відкриється порожня сторінка, переконайся, що у вкладці `Console` немає
-помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
-(**404**). Швидше за все у тебе неправильне значення прапора `--base` для
-команди `build` у файлі `package.json`.
-
-## Як це працює
-
-![How it works](./assets/how-it-works.png)
-
-1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується та
-   проходить лінтинг та збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн версія файлів проекту
-   відправляється у гілку `gh-pages`. В іншому випадку, у лозі виконання скрипта
-   буде вказано в чому проблема.
+- `src/index.html` — основна сторінка сайту
+- `src/partials/` — HTML-частини сторінки (header, sections, footer тощо)
+- `src/css/` — стилі (загальні стилі та стилі секцій)
+- `src/js/` — JavaScript-логіка
