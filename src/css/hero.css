@@ -132,14 +132,3 @@
     width: 192px;
   }
 }
-
-@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .hero {
-    background-image:
-      linear-gradient(
-        var(--opacity-neutral-darkest-40),
-        var(--opacity-neutral-darkest-40)
-      ),
-      url(../img/hero/background@2x.jpg);
-  }
-}
