@@ -1,3 +1,7 @@
+.about {
+  padding: 56px 0;
+}
+
 .container-about {
   display: flex;
   align-items: center;
@@ -5,9 +9,6 @@
   flex-direction: column;
   gap: 32px;
   background-color: var(--color-scheme-2-background);
-
-  padding-top: 56px;
-  padding-bottom: 56px;
 }
 
 .about-img-wrapper {
@@ -61,8 +62,8 @@
   content: '';
   display: inline-block;
   flex-shrink: 0;
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -81,7 +82,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-about {
+  .about {
     padding-top: 112px;
     padding-bottom: 112px;
   }
