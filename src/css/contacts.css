@@ -178,3 +178,49 @@
     max-width: 192px;
   }
 }
+
+.contacts-input-virtual-placeholder-wrapper {
+  position: relative;
+}
+
+.input-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; 
+  padding: 8px 12px;
+  visibility: hidden;
+  opacity: 0;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--opacity-neutral-darkest-60);
+
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .contacts-input-virtual-placeholder::placeholder {
+    opacity: 0;
+  }
+
+  .input-placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .contacts-input-virtual-placeholder:focus + .input-placeholder, 
+    .contacts-input-virtual-placeholder:not(:placeholder-shown) + .input-placeholder,
+    .contacts-input-virtual-placeholder:focus:not(:placeholder-shown) + .input-placeholder {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
