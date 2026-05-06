@@ -47,7 +47,7 @@
     (hero-css mobile, about-html, about-css desktop, testimonials-html, contacts-html, contacts-css mobile, contacts-css desktop, bug fixing, додаткові задачі)
 - Ірина Антонюк **Web-developer** 
     (about-css mobile, footer-html, footer-css mobile, footer-css desktop, mobile menu-css)
-- Ірина Коваль **Web-developer** 
+- Ірина Кухарева **Web-developer** 
     (benefits-css mobile, benefits-css tablet, benefits-css desktop, contacts-css tablet, mobile menu-html)
 - Карина Бобровська **Web-developer** 
     (gallery-html, gallery-css mobile, gallery-css tablet, gallery-css desktop)
