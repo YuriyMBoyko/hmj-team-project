@@ -3,8 +3,11 @@
   background-size: cover;
   background-position: center;
   margin: 0 auto;
-  width: 375px;
+  min-width: 320px;
+  max-width: 375px;
+  width: 100%;
   height: 656px;
+  padding-top: 160px 0 0 0;
   background-image:
     linear-gradient(
       var(--opacity-neutral-darkest-40),
@@ -30,8 +33,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 32px;
-  padding-top: 160px;
-  padding-bottom: 0px; 
 }
 
 .hero-title-wrapper {
@@ -62,7 +63,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
+    max-width: 768px;
     height: 864px;
 
     background-image:
@@ -96,7 +97,9 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
-    width: 1440px;
+    max-width: 1440px;
+    padding-top: 224px; 
+    padding-bottom: 64px;
     background-image:
       linear-gradient(
         var(--opacity-neutral-darkest-40),
@@ -115,11 +118,6 @@
         url(../img/hero/hero-background-desktop@2x.jpg);
     }
   }
-
-  .hero-container {
-    padding: 224px 0px 0px 64px;
-  }
-
   .hero-title-wrapper {
     max-width: 640px;
   }
